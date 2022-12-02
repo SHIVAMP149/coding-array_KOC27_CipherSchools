@@ -1,0 +1,178 @@
+body{
+    background-image: url(assets/img/light.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:800px; 
+    
+  }
+.image{
+    margin-left: 780px;
+    max-width: 60%
+}
+
+.text {
+    cursor: pointer;
+    font-size: 14px;
+    color:black;  
+}
+p{
+    margin-left: 20px;
+    color: black;
+    text-align: left;
+    font-size: 28px;
+    
+}
+.contact{
+    cursor: pointer;
+    text-align: right;
+    color: black;
+    margin-left: 200px;
+    text-align: right;
+}
+.map{
+    cursor: pointer;
+    text-align: right;
+    color: black;
+    margin-left: 5px;
+}
+h2{
+    color:black;
+    font-size: 26px;
+}
+
+.login{
+    cursor: pointer;
+    text-align: right;
+    color: black;
+    margin-left: 200px;
+    font-size: 22px;
+}
+h4{
+    font-size: 20px;
+}
+.icon{
+    margin-left: 80px;
+    color:black;
+}
+.nav{
+    overflow: hidden;
+    
+}
+.nav a{
+    display:flex;
+    float : left;
+    color: black;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 0px 60px;
+    text-decoration: white;
+    font-size: 25px;
+}
+.nav a:hover {
+    background-color:black;
+    color: goldenrod;
+}
+.cons{
+    margin-top: 15px;
+    text-align: center;
+}
+.lets{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+h1{
+    color:aqua;
+    font-size: 60px;
+    margin-left: 45px;
+}
+
+.para{
+    color: wheat;
+    font-size: 34px;
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 25px;
+}
+.about{
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-left: 65px;
+}
+.video{
+    margin-right: 100px;
+    border-color: aqua;
+  }
+
+.button{
+  
+    display: inline-block;
+    
+    background-color: blue;
+    border: none;
+    color: #FFFFFF;
+    
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 190px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 25px;
+    
+  }
+  button{
+    text-align: left;
+  }
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+  }
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.button:hover span {
+    padding-right: 25px;
+  }
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+
+  .what{
+    font-size: 65px;
+    color: black;
+    
+  }
+.ul{
+    font-size: 35px;
+    color: wheat;
+    margin-left: 15px;
+}
